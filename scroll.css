@@ -1,0 +1,32 @@
+#navbarscroll {
+    transition: 500ms all ease;
+width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    height: 17%;
+}
+
+#navbarscroll ul {    margin-top: 5px;
+    display: inline-flex;
+margin-left: 86px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#navbarscroll ul li {    margin-top: 20px;
+    font-size: 25px;
+    list-style: none;
+    width: 130px;
+	    font-family: sans-serif;
+}
+
+#navbarscroll ul li a {     text-decoration: none;   
+    color: #fff;
+}
+animation:par3 3s forwards ;
+
+@keyframes par3{
+
+100%{   margin-top:-10px;opacity:1;}
+
+}
